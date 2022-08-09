@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_view_user_photo"
+        android:layout_width="120dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_height="120dp">
+
+    </ImageView>
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/text_view_firstname"
+        android:text="FirstName"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/image_view_user_photo"
+        android:layout_width="match_parent"
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/text_view_lastname"
+        android:text="Last Name"
+        android:textSize="20sp"
+        android:layout_below="@id/text_view_firstname"
+        android:layout_toRightOf="@id/image_view_user_photo"
+        android:layout_width="match_parent"
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_alignBottom="@id/image_view_user_photo"
+        android:id="@+id/text_view_email"
+        android:text="Email Address"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/image_view_user_photo"
+        android:layout_below="@id/text_view_lastname"
+        android:layout_width="match_parent"
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <Button
+        android:id="@+id/button_view_details"
+        android:text="view History"
+        android:paddingTop="10dp"
+        android:layout_below="@id/image_view_user_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+
+</RelativeLayout>

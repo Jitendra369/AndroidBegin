@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="members">
+        <item>Sahebrao </item>
+        <item>Ratna </item>
+        <item>pooja </item>
+        <item>Neetu</item>
+        <item>Jittu</item>
+    </string-array>
+
+    <string name="termsCon">I accept the Terms of Use &amp; Privacy Policy</string>
+    <string name="SignUp">SignUp</string>
+</resources>
